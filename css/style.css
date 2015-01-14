@@ -1,0 +1,132 @@
+@import url(bootstrap.css);
+@import "http://webfonts.ru/import/ptsans.css";
+
+
+*{
+	font-family: 'PT Sans';
+
+}
+
+
+body{
+	background:  #64676c;
+	}
+
+.modal-dialog{
+  width: 900px;
+ }
+
+
+header {
+	background: -moz-linear-gradient(to bottom, #1c2225, #323232);
+    width: 900px;
+    margin: auto;
+  	padding: 100px;
+  	box-shadow: 0 8px 15px rgba(0,0,0,6);
+  	text-align: center;
+  }
+.home{
+	width: 900px;
+	background: #e8e8e8;
+	margin: auto;
+	box-shadow: 0 8px 15px rgba(0,0,0,6);
+	margin-top: -20px;
+
+	
+}
+.article{
+	width: 870px;
+	background: #f1f1f1;
+	margin: auto;
+	margin-bottom: 20px; 
+	margin-top: 20px; 
+
+}
+
+	
+
+footer{
+	width: 900px;
+	margin: auto;
+	background: #1c2225;
+	padding: 20px;
+	box-shadow: 0 8px 15px rgba(0,0,0,6);
+	margin-top: -20px; 
+	
+
+}
+li{
+	list-style: none;
+	float: left;
+}
+li a {
+	text-decoration: none;
+	color: #cccccc;
+	font-size: 15px;
+	display: block;
+	background: #1c2225;
+	padding: 15px;
+	width: 150px;
+	text-align: center;
+}
+
+a:hover {
+	background: #23292b;
+	color: white;
+	text-decoration: none;
+	box-shadow: 0 8px 15px rgba(28,34,37,1);
+	text-shadow: 2px 1px 5px #eee;
+}
+
+#nav{
+	width: 900px;
+	margin-left: -100px;
+	margin-top: 80px; 
+	margin-bottom: -50px;
+}
+
+h1{
+	color: white;
+	text-shadow: 2px 1px 5px #eee;
+}
+
+footer p {
+	color: #ccc;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	float: left; 
+    margin: 7px 20px 7px 7px; 
+}
+
+h2{
+	text-align: center;
+
+}
+
+
+.button_del
+{
+
+	font-size: 15px;
+	width: 120px;
+	height: 50px;
+	border-radius: 0;
+	background: #23292b;
+	color: white;
+	text-decoration: none;
+	border: 0;
+	margin-left: 700px;
+}
+.button_del:hover{
+
+	
+	color: white;
+	text-decoration: none;
+	box-shadow: 0px 8px 8px rgba(28,34,37,1);
+	text-shadow: 2px 1px 5px #eee;
+}
+
+
